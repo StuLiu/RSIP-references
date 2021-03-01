@@ -1,0 +1,15 @@
+% Encoding: UTF-8
+
+@Article{8759970,
+  author   = {N. {He} and L. {Fang} and S. {Li} and J. {Plaza} and A. {Plaza}},
+  title    = {Skip-Connected Covariance Network for Remote Sensing Scene Classification},
+  journal  = {IEEE Transactions on Neural Networks and Learning Systems},
+  year     = {2020},
+  volume   = {31},
+  number   = {5},
+  pages    = {1461-1474},
+  doi      = {10.1109/TNNLS.2019.2920374},
+  keywords = {rank5},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
