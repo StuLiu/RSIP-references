@@ -1,16 +1,17 @@
 % Encoding: UTF-8
 
 @Article{8759970,
-  author   = {N. {He} and L. {Fang} and S. {Li} and J. {Plaza} and A. {Plaza}},
-  journal  = {IEEE Transactions on Neural Networks and Learning Systems},
-  title    = {Skip-Connected Covariance Network for Remote Sensing Scene Classification},
-  year     = {2020},
-  number   = {5},
-  pages    = {1461-1474},
-  volume   = {31},
-  doi      = {10.1109/TNNLS.2019.2920374},
-  keywords = {rank5},
-  ranking  = {rank4},
+  author     = {N. {He} and L. {Fang} and S. {Li} and J. {Plaza} and A. {Plaza}},
+  journal    = {IEEE Transactions on Neural Networks and Learning Systems},
+  title      = {Skip-Connected Covariance Network for Remote Sensing Scene Classification},
+  year       = {2020},
+  number     = {5},
+  pages      = {1461-1474},
+  volume     = {31},
+  doi        = {10.1109/TNNLS.2019.2920374},
+  keywords   = {rank5},
+  ranking    = {rank4},
+  readstatus = {skimmed},
 }
 
 @Article{8421052,
@@ -54,6 +55,7 @@
   series    = {GIS '10},
   abstract  = {We investigate bag-of-visual-words (BOVW) approaches to land-use classification in high-resolution overhead imagery. We consider a standard non-spatial representation in which the frequencies but not the locations of quantized image features are used to discriminate between classes analogous to how words are used for text document classification without regard to their order of occurrence. We also consider two spatial extensions, the established spatial pyramid match kernel which considers the absolute spatial arrangement of the image features, as well as a novel method which we term the spatial co-occurrence kernel that considers the relative arrangement. These extensions are motivated by the importance of spatial structure in geographic data.The methods are evaluated using a large ground truth image dataset of 21 land-use classes. In addition to comparisons with standard approaches, we perform extensive evaluation of different configurations such as the size of the visual dictionaries used to derive the BOVW representations and the scale at which the spatial relationships are considered.We show that even though BOVW approaches do not necessarily perform better than the best standard approaches overall, they represent a robust alternative that is more effective for certain land-use classes. We also show that extending the BOVW approach with our proposed spatial co-occurrence kernel consistently improves performance.},
   doi       = {10.1145/1869790.1869829},
+  groups    = {datasets},
   isbn      = {9781450304283},
   keywords  = {land-use classification, local invariant features, bag-of-visual-words},
   location  = {San Jose, California},
@@ -73,7 +75,7 @@
   volume   = {55},
   abstract = {Aerial scene classification, which aims to automatically label an aerial image with a specific semantic category, is a fundamental problem for understanding high-resolution remote sensing imagery. In recent years, it has become an active task in the remote sensing area, and numerous algorithms have been proposed for this task, including many machine learning and data-driven approaches. However, the existing data sets for aerial scene classification, such as UC-Merced data set and WHU-RS19, contain relatively small sizes, and the results on them are already saturated. This largely limits the development of scene classification algorithms. This paper describes the Aerial Image data set (AID): a large-scale data set for aerial scene classification. The goal of AID is to advance the state of the arts in scene classification of remote sensing images. For creating AID, we collect and annotate more than 10000 aerial scene images. In addition, a comprehensive review of the existing aerial scene classification techniques as well as recent widely used deep learning methods is given. Finally, we provide a performance analysis of typical aerial scene classification and deep learning approaches on AID, which can be served as the baseline results on this benchmark.},
   doi      = {10.1109/TGRS.2017.2685945},
-  groups   = {surveys},
+  groups   = {surveys, datasets},
   keywords = {antennas;geophysical image processing;image classification;learning (artificial intelligence);remote sensing;aerial scene classification techniques;semantic category;high-resolution remote sensing imagery;scene classification algorithms;machine learning approach;data-driven approach;UC-Merced data set;WHU-RS19;aerial image data set;AID;deep learning methods;Remote sensing;Benchmark testing;Earth;Google;Semantics;Rivers;Performance evaluation;Aerial images;benchmark;scene classification},
 }
 
@@ -89,7 +91,7 @@
   volume   = {105},
   abstract = {Remote sensing image scene classification plays an important role in a wide range of applications and hence has been receiving remarkable attention. During the past years, significant efforts have been made to develop various data sets or present a variety of approaches for scene classification from remote sensing images. However, a systematic review of the literature concerning data sets and methods for scene classification is still lacking. In addition, almost all existing data sets have a number of limitations, including the small scale of scene classes and the image numbers, the lack of image variations and diversity, and the saturation of accuracy. These limitations severely limit the development of new approaches especially deep learning-based methods. This paper first provides a comprehensive review of the recent progress. Then, we propose a large-scale data set, termed “NWPU-RESISC45,” which is a publicly available benchmark for REmote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This data set contains 31 500 images, covering 45 scene classes with 700 images in each class. The proposed NWPU-RESISC45 1) is large-scale on the scene classes and the total image number; 2) holds big variations in translation, spatial resolution, viewpoint, object pose, illumination, background, and occlusion; and 3) has high within-class diversity and between-class similarity. The creation of this data set will enable the community to develop and evaluate various data-driven algorithms. Finally, several representative methods are evaluated using the proposed data set, and the results are reported as a useful baseline for future research.},
   doi      = {10.1109/JPROC.2017.2675998},
-  groups   = {surveys},
+  groups   = {surveys, datasets},
   keywords = {geophysical image processing;learning (artificial intelligence);remote sensing;remote sensing image scene classification;various data sets;scene classification;data sets;image numbers;image variations;image diversity;learning based methods;NWPU-RESISC45;RESISC;Northwestern Polytechnical University;NWPU;representative methods;data-driven algorithms;Remote sensing;Benchmark testing;Spatial resolution;Social network services;Satellites;Image analysis;Machine learning;Unsupervised learning;Classification;Benchmark data set;deep learning;handcrafted features;remote sensing image;scene classification;unsupervised feature learning},
 }
 
@@ -105,6 +107,7 @@
   doi      = {10.1109/JSTARS.2020.3005403},
   groups   = {surveys},
   keywords = {convolutional neural nets;feature extraction;geophysical image processing;image classification;learning (artificial intelligence);remote sensing;generative adversarial network-based remote sensing image scene classification methods;convolutional neural network-based remote sensing image scene classification methods;autoencoder-based remote sensing image scene classification methods;deep learning;Remote sensing;Deep learning;Semantics;Earth;Benchmark testing;Image analysis;Sensors;Deep learning;remote sensing image;scene classification},
+  priority = {prio1},
 }
 
 @Article{8746195,
@@ -135,10 +138,60 @@
   groups  = {CompactModels},
 }
 
+@InProceedings{10.5555/2969033.2969125,
+  author    = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  booktitle = {Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2},
+  title     = {Generative Adversarial Nets},
+  year      = {2014},
+  address   = {Cambridge, MA, USA},
+  pages     = {2672–2680},
+  publisher = {MIT Press},
+  series    = {NIPS'14},
+  abstract  = {We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to ½ everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+  groups    = {GANs},
+  location  = {Montreal, Canada},
+  numpages  = {9},
+  url       = {https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf},
+}
+
+@Article{8059820,
+  author   = {D. {Lin} and K. {Fu} and Y. {Wang} and G. {Xu} and X. {Sun}},
+  journal  = {IEEE Geoscience and Remote Sensing Letters},
+  title    = {MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification},
+  year     = {2017},
+  issn     = {1558-0571},
+  month    = {Nov},
+  number   = {11},
+  pages    = {2092-2096},
+  volume   = {14},
+  abstract = {With the development of deep learning, supervised learning has frequently been adopted to classify remotely sensed images using convolutional networks. However, due to the limited amount of labeled data available, supervised learning is often difficult to carry out. Therefore, we proposed an unsupervised model called multiple-layer feature-matching generative adversarial networks (MARTA GANs) to learn a representation using only unlabeled data. MARTA GANs consists of both a generative model G and a discriminative model D. We treat D as a feature extractor. To fit the complex properties of remote sensing data, we use a fusion layer to merge the mid-level and global features. G can produce numerous images that are similar to the training data; therefore, D can learn better representations of remotely sensed images using the training data provided by G. The classification results on two widely used remote sensing image databases show that the proposed method significantly improves the classification performance compared with other state-of-the-art methods.},
+  doi      = {10.1109/LGRS.2017.2752750},
+  groups   = {GANs},
+  keywords = {feature extraction;geophysical image processing;image classification;image fusion;image matching;image representation;remote sensing;unsupervised learning;global features;training data;unsupervised representation;remote sensing image classification;deep learning;supervised learning;convolutional networks;unsupervised model;multiple-layer feature-matching generative adversarial networks;unlabeled data;generative model G;discriminative model D;feature extractor;remote sensing data;remote sensing image databases;MARTA GAN;fusion layer;Generators;Gallium nitride;Training;Remote sensing;Feature extraction;Training data;Computational modeling;Generative adversarial networks (GANs);scene classification;unsupervised representation learning},
+}
+
+@Article{8842616,
+  author   = {Y. {Yu} and X. {Li} and F. {Liu}},
+  journal  = {IEEE Transactions on Geoscience and Remote Sensing},
+  title    = {Attention GANs: Unsupervised Deep Feature Learning for Aerial Scene Classification},
+  year     = {2020},
+  issn     = {1558-0644},
+  month    = {Jan},
+  number   = {1},
+  pages    = {519-531},
+  volume   = {58},
+  abstract = {With the development of deep learning, supervised feature learning methods have achieved prominent performance in the field of aerial scene classification. However, supervised feature learning methods require a large amount of labeled training data. To address this limitation, in this article, a novel unsupervised deep feature learning method, namely, Attention generative adversarial networks (Attention GANs), is proposed for aerial scene classification. First, Attention GANs integrates the attention mechanism into GANs to enhance the representation power of the discriminator. Then, to obtain contextual information, a context-aggregation-based feature fusion architecture is designed in the discriminator. Furthermore, the generator and discriminator losses are improved on basis of the Relativistic GAN. At the same time, a content loss is formed by using the feature representations from the context-aggregation-based feature fusion architecture. In the experiments, our Attention GANs is evaluated via comprehensive experiments with four publicly available remote sensing scene data sets, i.e., the UC-Merced data set with 21 scene classes, the RSSCN7 data set with 7 scene classes, the AID data set with 30 scene classes, and the NWPU-RESISC45 data set with 45 scene classes. Experimental results demonstrate that our Attention GANs can obtain the best performance compared with the state-of-the-art methods.},
+  doi      = {10.1109/TGRS.2019.2937830},
+  groups   = {GANs},
+  keywords = {feature extraction;geophysical image processing;image classification;image fusion;image representation;learning (artificial intelligence);remote sensing;unsupervised learning;AID data set;RSSCN7 data set;NWPU-RESISC45 data set;UC-Merced data set;attention GAN;scene classes;attention generative adversarial networks;deep feature learning method;learning methods;aerial scene classification;unsupervised deep feature learning;publicly available remote sensing scene data sets;feature representations;relativistic GAN;context-aggregation-based;attention mechanism;Learning systems;Gallium nitride;Feature extraction;Generators;Task analysis;Remote sensing;Generative adversarial networks;Aerial scene classification;attention mechanism;context aggregation;generative adversarial networks (GANs);unsupervised deep feature learning},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:CompactModels\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:surveys\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:datasets\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:GANs\;0\;0\;0x8a8a8aff\;\;\;;
 }

@@ -1,0 +1,52 @@
+% Encoding: UTF-8
+
+@InProceedings{9157665,
+  author    = {Z. {Zheng} and Y. {Zhong} and J. {Wang} and A. {Ma}},
+  booktitle = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  title     = {Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery},
+  year      = {2020},
+  month     = {June},
+  pages     = {4095-4104},
+  abstract  = {Geospatial object segmentation, as a particular semantic segmentation task, always faces with larger-scale variation, larger intra-class variance of background, and foreground-background imbalance in the high spatial resolution (HSR) remote sensing imagery. However, general semantic segmentation methods mainly focus on scale variation in the natural scene, with inadequate consideration of the other two problems that usually happen in the large area earth observation scene. In this paper, we argue that the problems lie on the lack of foreground modeling and propose a foreground-aware relation network (FarSeg) from the perspectives of relation-based and optimization-based foreground modeling, to alleviate the above two problems. From perspective of relation, FarSeg enhances the discrimination of foreground features via foreground-correlated contexts associated by learning foreground-scene relation. Meanwhile, from perspective of optimization, a foreground-aware optimization is proposed to focus on foreground examples and hard examples of background during training for a balanced optimization. The experimental results obtained using a large scale dataset suggest that the proposed method is superior to the state-of-the-art general semantic segmentation methods and achieves a better trade-off between speed and accuracy.},
+  doi       = {10.1109/CVPR42600.2020.00415},
+  issn      = {2575-7075},
+  keywords  = {geophysical image processing;image resolution;image segmentation;learning (artificial intelligence);optimisation;remote sensing;large area earth observation scene;relation-based foreground modeling;HSR;foreground-aware optimization;foreground-scene relation;foreground-correlated contexts;foreground features;optimization-based foreground modeling;natural scene;foreground-background imbalance;larger-scale variation;semantic segmentation task;high spatial resolution remote sensing imagery;geospatial object segmentation;foreground-aware relation network;Semantics;Geospatial analysis;Remote sensing;Object segmentation;Image segmentation;Optimization;Feature extraction},
+}
+
+@Article{LI2020296,
+  author     = {Ke Li and Gang Wan and Gong Cheng and Liqiu Meng and Junwei Han},
+  journal    = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  title      = {Object detection in optical remote sensing images: A survey and a new benchmark},
+  year       = {2020},
+  issn       = {0924-2716},
+  pages      = {296-307},
+  volume     = {159},
+  abstract   = {Substantial efforts have been devoted more recently to presenting various methods for object detection in optical remote sensing images. However, the current survey of datasets and deep learning based methods for object detection in optical remote sensing images is not adequate. Moreover, most of the existing datasets have some shortcomings, for example, the numbers of images and object categories are small scale, and the image diversity and variations are insufficient. These limitations greatly affect the development of deep learning based object detection methods. In the paper, we provide a comprehensive review of the recent deep learning based object detection progress in both the computer vision and earth observation communities. Then, we propose a large-scale, publicly available benchmark for object DetectIon in Optical Remote sensing images, which we name as DIOR. The dataset contains 23,463 images and 192,472 instances, covering 20 object classes. The proposed DIOR dataset (1) is large-scale on the object categories, on the object instance number, and on the total image number; (2) has a large range of object size variations, not only in terms of spatial resolutions, but also in the aspect of inter- and intra-class size variability across objects; (3) holds big variations as the images are obtained with different imaging conditions, weathers, seasons, and image quality; and (4) has high inter-class similarity and intra-class diversity. The proposed benchmark can help the researchers to develop and validate their data-driven methods. Finally, we evaluate several state-of-the-art approaches on our DIOR dataset to establish a baseline for future research.},
+  doi        = {10.1016/j.isprsjprs.2019.11.023},
+  groups     = {surveys},
+  keywords   = {Object detection, Deep learning, Convolutional Neural Network (CNN), Benchmark dataset, Optical remote sensing images},
+  readstatus = {read},
+  url        = {https://www.sciencedirect.com/science/article/pii/S0924271619302825},
+}
+
+@Article{CHENG201611,
+  author   = {Gong Cheng and Junwei Han},
+  journal  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  title    = {A survey on object detection in optical remote sensing images},
+  year     = {2016},
+  issn     = {0924-2716},
+  pages    = {11-28},
+  volume   = {117},
+  abstract = {Object detection in optical remote sensing images, being a fundamental but challenging problem in the field of aerial and satellite image analysis, plays an important role for a wide range of applications and is receiving significant attention in recent years. While enormous methods exist, a deep review of the literature concerning generic object detection is still lacking. This paper aims to provide a review of the recent progress in this field. Different from several previously published surveys that focus on a specific object class such as building and road, we concentrate on more generic object categories including, but are not limited to, road, building, tree, vehicle, ship, airport, urban-area. Covering about 270 publications we survey (1) template matching-based object detection methods, (2) knowledge-based object detection methods, (3) object-based image analysis (OBIA)-based object detection methods, (4) machine learning-based object detection methods, and (5) five publicly available datasets and three standard evaluation metrics. We also discuss the challenges of current studies and propose two promising research directions, namely deep learning-based feature representation and weakly supervised learning-based geospatial object detection. It is our hope that this survey will be beneficial for the researchers to have better understanding of this research field.},
+  doi      = {https://doi.org/10.1016/j.isprsjprs.2016.03.014},
+  groups   = {surveys},
+  keywords = {Object detection, Optical remote sensing images, Template matching, Object-based image analysis (OBIA), Machine learning, Deep learning, Weakly supervised learning},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0924271616300144},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:surveys\;0\;0\;0x8a8a8aff\;\;\;;
+}
