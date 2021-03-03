@@ -1,0 +1,8 @@
+@article{OverFeat2014,
+author = {Sermanet, Pierre and Eigen, David and Zhang, Xiang and Mathieu, Michael and Fergus, Rob and Lecun, Yann},
+year = {2014},
+month = {12},
+pages = {},
+title = {OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks},
+journal = {International Conference on Learning Representations (ICLR) (Banff)}
+}
